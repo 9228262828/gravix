@@ -1,17 +1,32 @@
-# gravix
+# GRAVIX — Core Escape GitHub Pages
 
-A new Flutter project.
+Package: `com.gravix.coreescape`  
+Contact: `paintingadp1985@gmail.com`
 
-## Getting Started
+## Files
+- `docs/index.html`
+- `docs/privacy.html` — detailed Privacy Policy
+- `docs/terms.html`
+- `docs/style.css`
+- `docs/.nojekyll`
 
-This project is a starting point for a Flutter application.
+## Publish with GitHub Pages
+1. Upload this repository to GitHub.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select your main branch and the **/docs** folder.
+5. Save.
+6. After publishing, use the public `privacy.html` address as the Privacy Policy URL in Google Play Console.
 
-A few resources to get you started if this is your first Flutter project:
+## Important before release
+This policy describes the current GRAVIX core build as:
+- offline-first
+- SharedPreferences/local progress
+- no account
+- no cloud save/database
+- no ads
+- no behavioral analytics
+- no cross-app tracking
+- no camera/photos, microphone, contacts, or location required for core gameplay
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you later add Firebase, analytics, crash reporting, ads, cloud saves, accounts, online leaderboards, multiplayer, purchases, social features, or new permissions, update the Privacy Policy and Google Play Data safety disclosures before publishing that changed version.
